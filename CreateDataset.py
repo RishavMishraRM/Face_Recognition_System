@@ -1,7 +1,7 @@
 import cv2, os
 haar_file = 'haarcascade_frontalface_default.xml'
 datasets = 'datasets'
-sub_data = 'Anant'
+sub_data = 'Name'  ##name which you want to give to your datset of the person
 
 path = os.path.join(datasets, sub_data)
 if not os.path.isdir(path):
